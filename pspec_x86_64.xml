@@ -2,8 +2,8 @@
     <Source>
         <Name>syncplay</Name>
         <Packager>
-            <Name>Jon West</Name>
-            <Email>radicalraccoon@cryptolab.net</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>Apache-2.0</License>
         <PartOf>multimedia.video</PartOf>
@@ -84,7 +84,6 @@
             <Path fileType="library">/usr/lib64/syncplay/syncplayClient.py</Path>
             <Path fileType="library">/usr/lib64/syncplay/syncplayServer.py</Path>
             <Path fileType="library">/usr/lib64/vlc/lua/intf/syncplay.lua</Path>
-            <Path fileType="data">/usr/share/app-install/icons/syncplay.png</Path>
             <Path fileType="data">/usr/share/applications/syncplay-server.desktop</Path>
             <Path fileType="data">/usr/share/applications/syncplay.desktop</Path>
             <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/syncplay.png</Path>
@@ -99,12 +98,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2016-09-06</Date>
+        <Update release="2">
+            <Date>2016-09-08</Date>
             <Version>1.3.4</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jon West</Name>
-            <Email>radicalraccoon@cryptolab.net</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
