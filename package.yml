@@ -1,8 +1,8 @@
 name       : syncplay
-version    : 1.3.4
-release    : 2
+version    : 1.5.2
+release    : 3
 source     :
-    - https://github.com/Syncplay/syncplay/archive/1.3.4.tar.gz : f62b0283359ec800dbcd9fe89f93a860bce6fe79d58f35744adcb1364a5f0358
+    - https://github.com/Syncplay/syncplay/archive/v1.5.2.tar.gz : 8a6a6e73b28e842230b4deef3b031f8ebeea5e30ffca393f2c4f8de207c6f428
 license    : Apache-2.0
 component  : multimedia.video
 summary    : Synchronises media players so that distant friends can watch videos together
@@ -14,8 +14,7 @@ rundeps    :
     - python-zope.interface
 setup      : |
     sed -i '45s/$/hicolor\//' GNUmakefile && mkdir -p $installdir/usr/share/icons
-install    : |-
-    %make_install PREFIX=$installdir \
-        LIB_PATH=$installdir/%libdir% \
-        VLC_LIB_PATH=$installdir/%libdir%
-    rm -rf $installdir/usr/share/app-install
+install    : |
+    %make_install LIB_PATH=$installdir/%libdir% \
+                  VLC_LIB_PATH=$installdir/%libdir%
+    rm -rf $installdir/usr/share/{app-install,pixmaps}

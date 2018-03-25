@@ -2,8 +2,8 @@
     <Source>
         <Name>syncplay</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
         <License>Apache-2.0</License>
         <PartOf>multimedia.video</PartOf>
@@ -19,11 +19,15 @@
 </Description>
         <PartOf>multimedia.video</PartOf>
         <Files>
+            <Path fileType="data">/home/build/YPKG/root/syncplay/install/usr/lib64/vlc/lua/intf/syncplay.lua</Path>
             <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib/x86_64-linux-gnu/vlc/lua/intf/syncplay.lua</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/accept.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/application_get.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/arrow_refresh.png</Path>
+            <Path fileType="library">/usr/lib64/syncplay/resources/arrow_switch.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/arrow_undo.png</Path>
+            <Path fileType="library">/usr/lib64/syncplay/resources/bullet_right_grey.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/chevrons_right.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/clock_go.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/cog.png</Path>
@@ -33,30 +37,43 @@
             <Path fileType="library">/usr/lib64/syncplay/resources/control_play_blue.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/cross.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/cross_checkbox.png</Path>
+            <Path fileType="library">/usr/lib64/syncplay/resources/delete.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/door_in.png</Path>
+            <Path fileType="library">/usr/lib64/syncplay/resources/email_go.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/empty_checkbox.png</Path>
+            <Path fileType="library">/usr/lib64/syncplay/resources/error.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/eye.png</Path>
+            <Path fileType="library">/usr/lib64/syncplay/resources/film_add.png</Path>
+            <Path fileType="library">/usr/lib64/syncplay/resources/film_edit.png</Path>
+            <Path fileType="library">/usr/lib64/syncplay/resources/film_folder_edit.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/film_go.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/film_link.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/folder_explore.png</Path>
+            <Path fileType="library">/usr/lib64/syncplay/resources/folder_film.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/help.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/house.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/key_go.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/lock.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/lock_open.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/lua/intf/syncplay.lua</Path>
+            <Path fileType="library">/usr/lib64/syncplay/resources/mpc-be.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/mpc-hc.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/mpc-hc64.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/mplayer.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/mpv.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/page_white_key.png</Path>
+            <Path fileType="library">/usr/lib64/syncplay/resources/shield_add.png</Path>
+            <Path fileType="library">/usr/lib64/syncplay/resources/shield_edit.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/syncplay.png</Path>
+            <Path fileType="library">/usr/lib64/syncplay/resources/syncplayintf.lua</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/table_refresh.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/tick.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/tick_checkbox.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/timeline_marker.png</Path>
+            <Path fileType="library">/usr/lib64/syncplay/resources/user_comment.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/user_key.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/vlc.png</Path>
+            <Path fileType="library">/usr/lib64/syncplay/resources/world_add.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/world_explore.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/resources/world_go.png</Path>
             <Path fileType="library">/usr/lib64/syncplay/syncplay/__init__.py</Path>
@@ -64,9 +81,14 @@
             <Path fileType="library">/usr/lib64/syncplay/syncplay/clientManager.py</Path>
             <Path fileType="library">/usr/lib64/syncplay/syncplay/constants.py</Path>
             <Path fileType="library">/usr/lib64/syncplay/syncplay/messages.py</Path>
+            <Path fileType="library">/usr/lib64/syncplay/syncplay/messages_de.py</Path>
+            <Path fileType="library">/usr/lib64/syncplay/syncplay/messages_en.py</Path>
+            <Path fileType="library">/usr/lib64/syncplay/syncplay/messages_it.py</Path>
+            <Path fileType="library">/usr/lib64/syncplay/syncplay/messages_ru.py</Path>
             <Path fileType="library">/usr/lib64/syncplay/syncplay/players/__init__.py</Path>
             <Path fileType="library">/usr/lib64/syncplay/syncplay/players/basePlayer.py</Path>
             <Path fileType="library">/usr/lib64/syncplay/syncplay/players/mpc.py</Path>
+            <Path fileType="library">/usr/lib64/syncplay/syncplay/players/mpcbe.py</Path>
             <Path fileType="library">/usr/lib64/syncplay/syncplay/players/mplayer.py</Path>
             <Path fileType="library">/usr/lib64/syncplay/syncplay/players/mpv.py</Path>
             <Path fileType="library">/usr/lib64/syncplay/syncplay/players/playerFactory.py</Path>
@@ -79,11 +101,11 @@
             <Path fileType="library">/usr/lib64/syncplay/syncplay/ui/consoleUI.py</Path>
             <Path fileType="library">/usr/lib64/syncplay/syncplay/ui/gui.py</Path>
             <Path fileType="library">/usr/lib64/syncplay/syncplay/utils.py</Path>
+            <Path fileType="library">/usr/lib64/syncplay/syncplay/vendor/Qt.py</Path>
             <Path fileType="library">/usr/lib64/syncplay/syncplay/vendor/__init__.py</Path>
-            <Path fileType="library">/usr/lib64/syncplay/syncplay/vendor/qt4reactor.py</Path>
+            <Path fileType="library">/usr/lib64/syncplay/syncplay/vendor/qt5reactor.py</Path>
             <Path fileType="library">/usr/lib64/syncplay/syncplayClient.py</Path>
             <Path fileType="library">/usr/lib64/syncplay/syncplayServer.py</Path>
-            <Path fileType="library">/usr/lib64/vlc/lua/intf/syncplay.lua</Path>
             <Path fileType="data">/usr/share/applications/syncplay-server.desktop</Path>
             <Path fileType="data">/usr/share/applications/syncplay.desktop</Path>
             <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/syncplay.png</Path>
@@ -94,16 +116,15 @@
             <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/syncplay.png</Path>
             <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/syncplay.png</Path>
             <Path fileType="data">/usr/share/icons/hicolor/96x96/apps/syncplay.png</Path>
-            <Path fileType="data">/usr/share/pixmaps/syncplay.png</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2016-09-08</Date>
-            <Version>1.3.4</Version>
+        <Update release="3">
+            <Date>2018-03-25</Date>
+            <Version>1.5.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>
